@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="zh-CN">
 
 
 
@@ -13,10 +13,12 @@
         content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+  
   <meta name="description" content="">
   <meta name="author" content="longpp">
   <meta name="keywords" content="">
-  <title>Links - longpp&#39;s blog</title>
+  <title>友链 - longpp&#39;s blog</title>
 
   <link  rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/5.12.1/css/all.min.css" />
 <link  rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/css/bootstrap.min.css" />
@@ -63,7 +65,7 @@
           
           
           <li class="nav-item">
-            <a class="nav-link" href="/">Home</a>
+            <a class="nav-link" href="/">首页</a>
           </li>
         
           
@@ -71,7 +73,7 @@
           
           
           <li class="nav-item">
-            <a class="nav-link" href="/archives/">Archives</a>
+            <a class="nav-link" href="/archives/">归档</a>
           </li>
         
           
@@ -79,7 +81,7 @@
           
           
           <li class="nav-item">
-            <a class="nav-link" href="/categories/">Categories</a>
+            <a class="nav-link" href="/categories/">分类</a>
           </li>
         
           
@@ -87,7 +89,7 @@
           
           
           <li class="nav-item">
-            <a class="nav-link" href="/tags/">Tags</a>
+            <a class="nav-link" href="/tags/">标签</a>
           </li>
         
           
@@ -95,7 +97,7 @@
           
           
           <li class="nav-item">
-            <a class="nav-link" href="/about/">About</a>
+            <a class="nav-link" href="/about/">关于</a>
           </li>
         
         
@@ -195,7 +197,7 @@
   <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header text-center">
-        <h4 class="modal-title w-100 font-weight-bold">Search</h4>
+        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
         <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -204,7 +206,7 @@
         <div class="md-form mb-5">
           <input type="text" id="local-search-input" class="form-control validate">
           <label data-error="x" data-success="v"
-                 for="local-search-input">keyword</label>
+                 for="local-search-input">关键词</label>
         </div>
         <div class="list-group" id="local-search-result"></div>
       </div>
@@ -243,6 +245,24 @@
 
 
     
+  <!-- 备案信息 -->
+  <a href="http://beian.miit.gov.cn/" target="_blank"
+     rel="nofollow noopener"></a>
+  
+    <a
+      href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=18049508"
+      rel="nofollow noopener"
+      class="police-beian"
+      target="_blank"
+    >
+      <span class="police-beian-sep">&nbsp;|&nbsp;</span>
+      
+        <img src="/img/police_beian.png" srcset="/img/loading.gif" alt="police-icon" />
+      
+      <span>浙ICP备18049508号-1</span>
+    </a>
+  
+
 
     <!-- cnzz Analytics icon -->
     
@@ -289,7 +309,7 @@
     var typed = new Typed('#subtitle', {
       strings: [
         '  ',
-        "Links&nbsp;",
+        "友情链接&nbsp;",
       ],
       cursorChar: "_",
       typeSpeed: 70,
