@@ -18,7 +18,7 @@
   <meta name="description" content="">
   <meta name="author" content="longpp">
   <meta name="keywords" content="">
-  <title>Hello World - longpp&#39;s blog</title>
+  <title>Hexo初体验 - longpp&#39;s blog</title>
 
   <link  rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/5.12.1/css/all.min.css" />
 <link  rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/css/bootstrap.min.css" />
@@ -125,7 +125,7 @@
               
                 <p class="mt-3 post-meta">
                   <i class="fas fa-calendar-alt" aria-hidden="true"></i>
-                  星期六, 三月 7日 2020, 1:00 下午
+                  星期二, 三月 3日 2020, 8:15 晚上
                 </p>
               
 
@@ -134,7 +134,7 @@
                   
                   <span class="post-meta">
                     <i class="far fa-chart-bar"></i>
-                    75 字
+                    54 字
                   </span>
                 
 
@@ -176,19 +176,15 @@
         <div class="post-content mx-auto" id="post">
           
           <div class="markdown-body">
-            <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre><code class="lang-bash">$ hexo new &quot;My New Post&quot;
+            <p>用Hexo搭建一个blog~<br><a id="more"></a></p>
+<h2 id="Hexo相关命令"><a href="#Hexo相关命令" class="headerlink" title="Hexo相关命令"></a>Hexo相关命令</h2><h3 id="写一篇文章"><a href="#写一篇文章" class="headerlink" title="写一篇文章"></a>写一篇文章</h3><pre><code class="lang-bash">$ hexo new &quot;Hexo初体验&quot;
 </code></pre>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre><code class="lang-bash">$ hexo server
+<h3 id="本地启动Hexo服务"><a href="#本地启动Hexo服务" class="headerlink" title="本地启动Hexo服务"></a>本地启动Hexo服务</h3><pre><code class="lang-bash">$ hexo server 或 hexo s
 </code></pre>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre><code class="lang-bash">$ hexo generate
+<h3 id="生成静态文件"><a href="#生成静态文件" class="headerlink" title="生成静态文件"></a>生成静态文件</h3><pre><code class="lang-bash">$ hexo generate 或 hexo g
 </code></pre>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre><code class="lang-bash">$ hexo deploy
+<h3 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h3><pre><code class="lang-bash">$ hexo deploy 或 hexo d
 </code></pre>
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
 
             <hr>
           </div>
@@ -196,7 +192,22 @@
           <div>
             <p>
             
+              <span>
+                <i class="iconfont icon-inbox"></i>
+                
+                  <a class="hover-with-bg" href="/categories/Hexo/">Hexo</a>
+                  &nbsp;
+                
+              </span>&nbsp;&nbsp;
+            
               
+              <span>
+                <i class="iconfont icon-tag"></i>
+                
+                  <a class="hover-with-bg" href="/tags/Hexo/">Hexo</a>
+                
+              </span>
+            
             </p>
             
               <p class="note note-warning">本博客所有文章除特别声明外，均采用 <a href="https://zh.wikipedia.org/wiki/Wikipedia:CC_BY-SA_3.0%E5%8D%8F%E8%AE%AE%E6%96%87%E6%9C%AC" target="_blank" rel="nofollow noopener noopener">CC BY-SA 3.0协议</a> 。转载请注明出处！</p>
@@ -261,7 +272,22 @@
 
   
 
-  
+  <link href="https://cdn.bootcss.com/aplayer/1.10.1/APlayer.min.css" rel="stylesheet">
+<script src="https://cdn.bootcss.com/aplayer/1.10.1/APlayer.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/meting@2.0.1/dist/Meting.min.js"></script>
+<meting-js
+    type="playlist"
+    id="4901965752"
+    mini='true'
+    server="netease"
+    type="playlist"
+    fixed="true" 
+    order="list"
+    lrc-type="1"
+    volume="0.5"
+    autoplay="true"
+    preload="none">
+</meting-js>
 
   <footer class="mt-5">
   <div class="text-center py-3">
@@ -429,7 +455,7 @@
     var typed = new Typed('#subtitle', {
       strings: [
         '  ',
-        "Hello World&nbsp;",
+        "Hexo初体验&nbsp;",
       ],
       cursorChar: "_",
       typeSpeed: 70,
